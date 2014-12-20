@@ -19,10 +19,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ##Content
 =====================================
 
-This project consist of the following files，
+This project consist of the following files  
 
--Readme.md 
--run_analysis.R --> The R script  that read in the relevant data files and produce a tidy data set as output. Please note that the read.table file  name are in
+*Readme.md 
+*run_analysis.R --> The R script  that read in the relevant data files and produce a tidy data set as output. Please note that the read.table file  name are in
 absolute directory. This is for convenience of processing without having to upload all the data files to github which take up a long time and waste of bandwidth.
-If wanted to run the script, please change the directory to point to the location of the resident system.
--tidydata.txt   --> The output tidydata set 
+If wanted to run the script, please change the directory to point to the location of the resident system.  
+*tidydata.txt   --> The output tidydata set   
