@@ -65,5 +65,5 @@ mm<-melt(newdata,id=(c("SubjectID","Activity")))
 cy<-dcast(mm,SubjectID+Activity~variable,mean)
 
 #replace column title with descriptive title and write to file
-colnames(cy)<-c("SubjectID","Activity",paste("mean of",as.character(ss[,2])))
-write.table(cy,"tidydata.txt",row.name=FALSE)
+colnames(cy)<-c("SubjectID","Activity",paste("mean",as.character(ss[,2])))
+write.table(cy,"tidydata.txt",row.name=FALSE,quote=FALSE)
